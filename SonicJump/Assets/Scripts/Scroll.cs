@@ -15,15 +15,20 @@ public class Scroll : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//renderer.material.mainTextureOffset = new Vector2 (0f,Time.time * speed);
-		//Debug.Log ((renderer.material.GetTextureOffset("_MainTex")));
-
 		if (Input.GetKey(KeyCode.W)){
-			Debug.Log (Time.time);
+			//Debug.Log (Time.time);
 			//old_y = old_y + 0.1;
-			new_y = Time.time * speed;
-			renderer.material.mainTextureOffset = new Vector2 (0f,old_y); new Vector2(0f, new_y);
-			old_y = new_y;
+			new_y = new_y + 0.02f;
+			renderer.material.mainTextureOffset = new Vector2(0f, new_y * speed);
+			//old_y = new_y;
+		}
+
+		if (Input.GetKey(KeyCode.S)){
+			//Debug.Log (Time.time);
+			//old_y = old_y + 0.1;
+			new_y = new_y - 0.02f;
+			renderer.material.mainTextureOffset = new Vector2(0f, new_y * speed);
+			//old_y = new_y;
 		}
 	}
 
