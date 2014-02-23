@@ -213,4 +213,15 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#Maarij added
 SonicJump/Library/ScriptAssemblies/CompilationCompleted.txt
+SonicJump/Library/CurrentLayout.dwlt
+SonicJump/Library/assetDatabase3
+SonicJump/SonicJump-csharp.sln
+SonicJump/SonicJump.sln
+SonicJump/SonicJump.userprefs
+SonicJump/Library/ScriptAssemblies/*
+SonicJump/Library/expandedItems
+SonicJump/Lirbrary/*
+SonicJump/Temp/*
