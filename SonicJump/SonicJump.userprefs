@@ -1,6 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\EdulandTheGame\Assets\Scripts\PlayerController.cs">
+    <Files>
+      <File FileName="..\EdulandTheGame\Assets\Scripts\PlayerController.cs" Line="12" Column="2" />
+      <File FileName="..\EdulandTheGame\Assets\Scripts\PlayerPhysics.cs" Line="23" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
