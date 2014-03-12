@@ -224,6 +224,11 @@ SonicJump/SonicJump.userprefs
 SonicJump/Library/ScriptAssemblies/*
 SonicJump/Library/expandedItems
 SonicJump/Temp/*
+SonicJump/*
 
 EdulandTheGame/Library/CurrentLayout.dwlt
 EdulandTheGame/Temp/*
+EdulandThegame/scriptassemblies/*.dll
+EdulandThegame/scriptassemblies/*.mdb
+EdulandTheGame/ProjectSettings/*
+EdulandTheGame/Library/metadata/*
