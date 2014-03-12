@@ -231,3 +231,4 @@ EdulandTheGame/Temp/*
 EdulandThegame/scriptassemblies/*.dll
 EdulandThegame/scriptassemblies/*.mdb
 EdulandTheGame/ProjectSettings/*
+EdulandTheGame/Library/metadata/*
