@@ -117,14 +117,14 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _ParallaxMap
+          name: _Illum
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Illum
+          name: _ParallaxMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -210,16 +210,16 @@ Material:
         second: .078125
       data:
         first:
+          name: _EmissionLM
+        second: 0
+      data:
+        first:
           name: _SelfIllumination
         second: 1
       data:
         first:
           name: _Parallax
         second: .0199999996
-      data:
-        first:
-          name: _EmissionLM
-        second: 0
     m_Colors:
       data:
         first:
@@ -390,7 +390,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 320409335}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: .140000001, y: .75999999}
   m_Center: {x: 0, y: .0599999987}
 --- !u!58 &320409337
@@ -485,6 +485,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294966783
   jumpForce: 700
+  stringToEdit: 
 --- !u!1 &580547233
 GameObject:
   m_ObjectHideFlags: 0

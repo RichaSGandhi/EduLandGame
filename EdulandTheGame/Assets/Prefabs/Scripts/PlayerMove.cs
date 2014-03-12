@@ -13,6 +13,9 @@ public class PlayerMove : MonoBehaviour {
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
 	public float jumpForce = 100f;
+	public string stringToEdit;
+	private string stringToDisplay;
+	private bool isCollision = false;
 
 	bool doubleJump = false;
 
@@ -61,6 +64,9 @@ public class PlayerMove : MonoBehaviour {
 				rigidbody2D.AddForce(new Vector2(0, jumpForce));
 
 		}
+		if(Input.GetKey(KeyCode.B)){
+			isCollision = false; 
+		}
 	}
 
 	void Flip (){
@@ -69,4 +75,21 @@ public class PlayerMove : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+	void OnCollisionEnter(Collision hit)
+	{
+		stringToEdit = "Hi Please name me";
+		isCollision = true;
+	}
+	
+	void OnGUI () {
+		stringToDisplay = "Cool go ahead";
+		if (isCollision) {
+			stringToEdit = GUI.TextField (new Rect (500, 25, 200, 30), stringToEdit, 25);
+			if (stringToEdit == "richa"){
+				GUI.Label(new Rect (500, 55, 200, 60), stringToDisplay);
+			}
+			
+		}
+	}
 }
+
