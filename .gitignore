@@ -227,8 +227,17 @@ SonicJump/Temp/*
 SonicJump/*
 
 EdulandTheGame/Library/CurrentLayout.dwlt
-EdulandTheGame/Temp/*
-EdulandThegame/scriptassemblies/*.dll
-EdulandThegame/scriptassemblies/*.mdb
-EdulandTheGame/ProjectSettings/*
+EdulandTheGame/Library/ScriptAssemblies/*.dll
 EdulandTheGame/Library/metadata/*
+EdulandTheGame/Library/assetDatabase3
+EdulandThegame/Library/expandedItems
+
+EdulandTheGame/*.sln
+
+EdulandTheGame/Temp/*
+
+EdulandTheGame/scriptassemblies/*.dll
+EdulandTheGame/scriptassemblies/*.mdb
+EdulandTheGame/Library/ScriptAssemblies/CompilationCompleted.txt
+
+EdulandTheGame/ProjectSettings/*
