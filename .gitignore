@@ -236,8 +236,8 @@ EdulandTheGame/*.sln
 
 EdulandTheGame/Temp/*
 
-EdulandTheGame/scriptassemblies/*.dll
-EdulandTheGame/scriptassemblies/*.mdb
+EdulandTheGame/ScriptAssemblies/*.dll
+EdulandTheGame/ScriptAssemblies/*.mdb
 EdulandTheGame/Library/ScriptAssemblies/CompilationCompleted.txt
 
 EdulandTheGame/ProjectSettings/*
