@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\UnityPatWalshDemo\Assets\Player.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\credits.cs">
     <Files>
-      <File FileName="..\..\UnityPatWalshDemo\Assets\Player.cs" Line="13" Column="35" />
-      <File FileName="Assets\Prefabs\Scripts\PlayerMove.cs" Line="80" Column="26" />
+      <File FileName="Assets\Scripts\startMenu.js" Line="10" Column="2" />
+      <File FileName="Assets\Scripts\playMenu.js" Line="12" Column="50" />
+      <File FileName="Assets\Scripts\credits.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
