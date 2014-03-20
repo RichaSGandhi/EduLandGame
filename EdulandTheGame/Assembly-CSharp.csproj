@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Prefabs\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\SpawnMultipleObject.cs" />
      <Compile Include="Assets\Scripts\credits.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponentExt.cs" />
