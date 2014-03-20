@@ -215,6 +215,7 @@ pip-log.txt
 .mr.developer.cfg
 
 #Maarij added
+SonicJump\Library\ScriptAssemblies\CompilationCompleted.txt
 SonicJump/Library/ScriptAssemblies/CompilationCompleted.txt
 SonicJump/Library/CurrentLayout.dwlt
 SonicJump/Library/assetDatabase3
@@ -223,16 +224,21 @@ SonicJump/SonicJump.sln
 SonicJump/SonicJump.userprefs
 SonicJump/Library/ScriptAssemblies/*
 SonicJump/Library/expandedItems
-SonicJump/Lirbrary/*
 SonicJump/Temp/*
+SonicJump/*
 
-SonicJump\Library\ScriptAssemblies\CompilationCompleted.txt
-SonicJump\Library\CurrentLayout.dwlt
-SonicJump\Library\assetDatabase3
-SonicJump\SonicJump-csharp.sln
-SonicJump\SonicJump.sln
-SonicJump\SonicJump.userprefs
-SonicJump\Library\ScriptAssemblies\*
-SonicJump\Library\expandedItems
-SonicJump\Lirbrary\*
-SonicJump\Temp\*
+EdulandTheGame/Library/CurrentLayout.dwlt
+EdulandTheGame/Library/ScriptAssemblies/*.dll
+EdulandTheGame/Library/metadata/*
+EdulandTheGame/Library/assetDatabase3
+EdulandThegame/Library/expandedItems
+
+EdulandTheGame/*.sln
+
+EdulandTheGame/Temp/*
+
+EdulandTheGame/ScriptAssemblies/*.dll
+EdulandTheGame/ScriptAssemblies/*.mdb
+EdulandTheGame/Library/ScriptAssemblies/CompilationCompleted.txt
+
+EdulandTheGame/ProjectSettings/*
