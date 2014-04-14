@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9469CC3C-AB2F-02F4-1095-2D2478C0EB6F}") = "EdulandTheGame", "Assembly-CSharp-vs.csproj", "{9C5E9456-3719-E1B3-D1AA-01A620F2D7EA}"
+EndProject
+Project("{9469CC3C-AB2F-02F4-1095-2D2478C0EB6F}") = "EdulandTheGame", "Assembly-CSharp-Editor-vs.csproj", "{F73892CB-8807-104D-9AA5-D864914F8D0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C5E9456-3719-E1B3-D1AA-01A620F2D7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5E9456-3719-E1B3-D1AA-01A620F2D7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5E9456-3719-E1B3-D1AA-01A620F2D7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5E9456-3719-E1B3-D1AA-01A620F2D7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73892CB-8807-104D-9AA5-D864914F8D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73892CB-8807-104D-9AA5-D864914F8D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73892CB-8807-104D-9AA5-D864914F8D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73892CB-8807-104D-9AA5-D864914F8D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																																											GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
