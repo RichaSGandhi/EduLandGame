@@ -2,6 +2,7 @@
 using System.Collections;
 using NUnit.Framework;
 
+namespace EdulandUnitTest{
 
 internal class PlayerMoveTest{
 
@@ -10,9 +11,10 @@ internal class PlayerMoveTest{
 
 	{
 			if (PlayerMove.destroyedPrevious == true) {
-			Assert.Pass();
+			//Assert.Pass();
 			Debug.Log ("Previous Object Destroyed");
 		}
 		
 	}
+}
 }
