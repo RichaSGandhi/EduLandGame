@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Editor\PlayerMoveTest.cs">
     <Files>
@@ -6,6 +7,12 @@
       <File FileName="Assets\Scripts\PlayerMove.cs" Line="74" Column="3" />
       <File FileName="Assets\UnityTestTools\UnitTesting\Editor\UnityUnitTest.cs" Line="1" Column="1" />
       <File FileName="Assets\UnityTestTools\Examples\UnitTestExamples\Editor\SampleTests.cs" Line="9" Column="6" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnMultipleObject.cs">
+    <Files>
+      <File FileName="Assets\Scripts\SpawnMultipleObject.cs" Line="55" Column="3" />
+>>>>>>> 141f659165c30740274c9d108a02fc3da59058c6
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
