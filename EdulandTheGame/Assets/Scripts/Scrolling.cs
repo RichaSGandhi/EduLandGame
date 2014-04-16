@@ -2,12 +2,13 @@
 using System.Collections;
 
 public class Scrolling : MonoBehaviour {
-	float speed = .0001f;
-	public GameObject temp_character;
+	public float speed = .0001f;
+	float speed2;
 	float timeVar;
+
 	// Use this for initialization
 	void Start () {
-		
+		speed2 = speed;
 	}
 	
 	
@@ -17,7 +18,7 @@ public class Scrolling : MonoBehaviour {
 			if(GameObject.Find("temp_character").transform.position.x > 4 && PlayerMove.destroyedPrevious == true){
 				timeVar = Time.time;
 				renderer.material.mainTextureOffset = new Vector2 ((/*Time.time */ speed) % 1, 0f);
-				speed = speed + .0001f;
+				speed = speed + speed2;
 			}
 		}
 		

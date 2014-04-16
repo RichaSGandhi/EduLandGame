@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScrollingGround.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnMultipleObject.cs">
     <Files>
-      <File FileName="Assets\Scripts\SpawnMultipleObject.cs" Line="32" Column="50" />
-      <File FileName="Assets\Scripts\PlayerMove.cs" Line="93" Column="6" />
-      <File FileName="Assets\Scripts\ScrollingGround.cs" Line="13" Column="2" />
-      <File FileName="Assets\Scripts\Scrolling.cs" Line="16" Column="44" />
+      <File FileName="Assets\Scripts\SpawnMultipleObject.cs" Line="55" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
