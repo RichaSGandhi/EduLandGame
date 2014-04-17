@@ -5,7 +5,9 @@ public class PlayerMove : MonoBehaviour {
 
 	public float maxSpeed = 7f;
 	bool facingRight= true;
-
+	string scoreText;
+	private int score;
+	public GUIStyle labelStyle;
 	Animator Anim;
 	public bool interact = false;
 	public Transform lineStart, lineEnd;
@@ -29,6 +31,8 @@ public class PlayerMove : MonoBehaviour {
 		GameObject spawner = GameObject.Find ("Spawner");
 		SpawnMultipleObject anotherScript = spawner.GetComponent<SpawnMultipleObject> ();
 		anotherScript.spawnRandomObject (-1);
+		scoreText = "Score : " + score.ToString();
+
 	}
 	
 	void FixedUpdate ()
@@ -95,12 +99,15 @@ public class PlayerMove : MonoBehaviour {
 			Debug.Log ("Destroying" +whatIHit.collider.gameObject.name);
 			Destroy(whatIHit.collider.gameObject);
 			destroyedPrevious = true;
+			score = score + 1;
+			scoreText = "Score : " + score.ToString();
 			SpawnMultipleObject.startTime = Time.time;
 			stringToEdit = "";
 		}
 
 	
 	}
+
 
 	void Flip (){
 		facingRight = !facingRight;
@@ -115,6 +122,8 @@ public class PlayerMove : MonoBehaviour {
 	//}
 	
 	void OnGUI () {
+		GUI.Label(new Rect (1200, 25, 30, 30), scoreText, labelStyle);
+
 
 		if (interact) {
 			stringToEdit = GUI.TextField (new Rect (500, 25, 200, 30), stringToEdit, 25);
