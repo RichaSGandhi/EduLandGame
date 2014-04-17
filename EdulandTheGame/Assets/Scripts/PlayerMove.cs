@@ -9,7 +9,7 @@ public class PlayerMove : MonoBehaviour {
 	Animator Anim;
 	public bool interact = false;
 	public Transform lineStart, lineEnd;
-	RaycastHit2D whatIHit;
+	public RaycastHit2D whatIHit;
 	bool grounded = false;
 	public Transform groundCheck;
 	float groundRadius = 0.2f;

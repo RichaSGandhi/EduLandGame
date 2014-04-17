@@ -557,11 +557,11 @@ MonoBehaviour:
   repeatCheckTime: 1
   repeatEveryTime: 1
   checkAfterFrames: 1
-  repeatCheckFrame: 0
-  repeatEveryFrame: 20
+  repeatCheckFrame: 1
+  repeatEveryFrame: 10
   hasFailed: 0
-  checkMethods: 2
-  m_ActionBase: {fileID: 772626001}
+  checkMethods: 4
+  m_ActionBase: {fileID: 625496129}
   checksPerformed: 0
 --- !u!1 &491188850
 GameObject:
@@ -703,6 +703,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paused: 0
+--- !u!114 &625496129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2586c8e41f35d2f4fadde53020bf4207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: {fileID: 320409335}
+  thisPropertyPath: PlayerMove.interact
+  compareToType: 1
+  other: {fileID: 0}
+  otherPropertyPath: 
+  constantValueGeneric: 0
 --- !u!1 &628868659
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,23 +823,6 @@ Transform:
   m_Children:
   - {fileID: 129262547}
   m_Father: {fileID: 0}
---- !u!114 &772626001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2586c8e41f35d2f4fadde53020bf4207, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go: {fileID: 320409335}
-  thisPropertyPath: gameObject.active
-  compareToType: 0
-  other: {fileID: 77419701}
-  otherPropertyPath: Transform.active
-  constantValueGeneric: 0
 --- !u!1 &895420035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76fc64e0f7a62a547b20df136b985c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  temp_character: {fileID: 0}
+  speed: 9.99999975e-05
 --- !u!1 &1995495591
 GameObject:
   m_ObjectHideFlags: 0

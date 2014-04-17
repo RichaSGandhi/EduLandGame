@@ -4,7 +4,15 @@ using NUnit.Framework;
 
 namespace EdulandUnitTest{
 
-internal class PlayerMoveTest{
+[TestFixture]
+public class PlayerMoveTest{
+		PlayerMove player;
+
+	[SetUp]
+	public void Init()
+	{
+			player = new PlayerMove ();
+	}
 
 	[Test]
 	public void obstacleDestroyed() 
@@ -16,5 +24,11 @@ internal class PlayerMoveTest{
 		}
 		
 	}
+	[Test]
+	public void counter(){
+						player.interact = true;
+				}
+
+
 }
 }

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="Unity Tests" total="25" errors="1" failures="0" not-run="0" inconclusive="24" ignored="0" skipped="0" invalid="0" date="2014-04-16" time="12:03:33">
+<test-results name="Unity Tests" total="25" errors="0" failures="0" not-run="0" inconclusive="24" ignored="0" skipped="0" invalid="0" date="2014-04-16" time="14:01:01">
   <environment nunit-version="2.6.2-Unity" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 6.1.7601.0" platform="Win32NT" cwd="C:\Users\Sahaj\Documents\GitHub\maarijzCode\EdulandTheGame" machine-name="SURI" user="Sahaj" user-domain="SURI" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite name="Unit Tests" type="Assembly" executed="True" result="Success" success="True" time="0.027">
+  <test-suite name="Unit Tests" type="Assembly" executed="True" result="Success" success="True" time="0.029">
     <results>
       <test-case name="JavaScriptUnitTests.JavaScriptTest" executed="False" result="Inconclusive">
         <reason>
@@ -22,17 +22,6 @@
           <message>
           </message>
         </reason>
-      </test-case>
-      <test-case name="EdulandUnitTest.PlayerMoveTest.RaycastTest" executed="True" result="Error" success="False" time="0.027">
-        <failure>
-          <message>
-<![CDATA[System.NullReferenceException : Object reference not set to an instance of an object]]>
-          </message>
-          <stack-trace>
-<![CDATA[at EdulandUnitTest.PlayerMoveTest.RaycastTest () [0x00006] in C:\Users\Sahaj\Documents\GitHub\maarijzCode\EdulandTheGame\Assets\Scripts\Editor\PlayerMoveTest.cs:22
-]]>
-          </stack-trace>
-        </failure>
       </test-case>
       <test-case name="UnityTest.NSubstituteDemo.RegisteredEventListenersGetEvents" executed="False" result="Inconclusive">
         <reason>
@@ -149,6 +138,23 @@
         </reason>
       </test-case>
       <test-case name="UnityTest.SampleTests.SquareRootDefinition(double.MaxValue)" executed="False" result="Inconclusive">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(double.PositiveInfinity)" executed="False" result="Inconclusive">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="EdulandUnitTest.PlayerMoveTest.counter" executed="True" result="Success" success="True" time="0.029">
+      </test-case>
+    </results>
+  </test-suite>
+</test-results>
+alse" result="Inconclusive">
         <reason>
           <message>
           </message>
