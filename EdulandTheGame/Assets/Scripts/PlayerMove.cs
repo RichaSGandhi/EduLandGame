@@ -20,6 +20,8 @@ public class PlayerMove : MonoBehaviour {
 	public string stringToEdit;
 	private string stringToDisplay;
 	private bool isCollision = true;
+	public AudioClip clip;
+
 
 	bool doubleJump = false;
 	public static bool destroyedPrevious= false;
@@ -87,9 +89,12 @@ public class PlayerMove : MonoBehaviour {
 			if(!doubleJump && !grounded){
 				doubleJump = true;
 				rigidbody2D.AddForce(new Vector2(0, jumpForce/2));
+				audio.PlayOneShot(clip);
 			}
-			else
+			else{
 				rigidbody2D.AddForce(new Vector2(0, jumpForce));
+				audio.PlayOneShot (clip);
+			}
 
 		}
 		Raycast ();
