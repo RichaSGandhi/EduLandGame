@@ -2,17 +2,33 @@
 using System.Collections;
 using NUnit.Framework;
 
+namespace EdulandUnitTest{
 
-internal class PlayerMoveTest{
+[TestFixture]
+public class PlayerMoveTest{
+		PlayerMove player;
+
+	[SetUp]
+	public void Init()
+	{
+			player = new PlayerMove ();
+	}
 
 	[Test]
 	public void obstacleDestroyed() 
 
 	{
 			if (PlayerMove.destroyedPrevious == true) {
-			Assert.Pass();
+			//Assert.Pass();
 			Debug.Log ("Previous Object Destroyed");
 		}
 		
 	}
+	[Test]
+	public void counter(){
+						player.interact = true;
+				}
+
+
+}
 }
