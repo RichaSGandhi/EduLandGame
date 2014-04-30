@@ -3,8 +3,8 @@ namespace UnityTest
 import UnityEngine
 import NUnit.Framework
 
-class BooUnitTests (MonoBehaviour): 
+//class BooUnitTests (MonoBehaviour): 
 
-	[Test]
-	def BooTest ():
-		Assert.Pass();
+	//[Test]
+	//def BooTest ():
+		//Assert.Pass();

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using NSubstitute;
 using NUnit.Framework;
 
-namespace UnityTest
+/*namespace UnityTest
 {
 	[TestFixture]
 	public class NSubstituteDemo
@@ -44,4 +44,4 @@ namespace UnityTest
 	{
 		void ReceiveEvent (IGameEvent gameEvent);
 	}
-}
+}*/

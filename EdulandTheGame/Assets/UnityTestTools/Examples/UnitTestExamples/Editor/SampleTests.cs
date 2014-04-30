@@ -2,7 +2,7 @@
 using System.Threading;
 using NUnit.Framework;
 
-namespace UnityTest
+/*namespace UnityTest
 {
 	internal class SampleTests
 	{
@@ -91,4 +91,4 @@ namespace UnityTest
 			Assert.That (sqrt * sqrt, Is.EqualTo (num).Within (0.000001));
 		}
 	}
-}
+}*/

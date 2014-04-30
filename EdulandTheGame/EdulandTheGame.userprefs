@@ -1,17 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpawnMultipleObject.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerMove.cs" Line="34" Column="23" />
+      <File FileName="Assets\Scripts\SpawnMultipleObject.cs" Line="29" Column="38" />
+      <File FileName="Assets\Scripts\Scrolling.cs" Line="38" Column="5" />
       <File FileName="Assets\Scripts\PlayerMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\UUnit\UUnitSelfTest\TestCaseDummy.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Editor\PlayerMoveTest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\playMenu.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\IntegrationTestScripts\ForceJump.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\IntegrationTestScripts\ForceDoubleJump.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Editor\ScrollingGroundTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\UUnit\UUnitAssert.cs" Line="1" Column="1" />
+      <File FileName="Assets\Integration_Tests-TestResults.xml" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\IntegrationTestScripts\ForceDestroy2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
->>>>>>> 3bae0df31cc2ae6e1695037e0a76537844540cfb
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

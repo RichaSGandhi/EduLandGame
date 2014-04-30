@@ -66,6 +66,7 @@
      <None Include="Assets\UnityTestTools\changelog.txt" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\LaserScope.shader" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\Integration_Tests-TestResults.xml" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\ParticleBlend.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
@@ -102,8 +103,12 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{4E6A9E52-C7E1-3950-6A70-0BECD9D9A313}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
       <Project>{9C5E9456-3719-E1B3-D1AA-01A620F2D7EA}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
+      <Project>{EEB49E2A-FA62-D626-F339-1CBBB2B1E962}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

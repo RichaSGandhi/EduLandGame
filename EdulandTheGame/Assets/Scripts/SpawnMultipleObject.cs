@@ -26,7 +26,7 @@ public class SpawnMultipleObject : MonoBehaviour
 
 		public void spawnRandomObject (int objIndexToSpawn)
 		{
-			int randInt = Random.Range (0, 3);
+			int randInt = Random.Range (0, 4);
 			Debug.Log ("Spawning object at: " + randInt);
 			GameObject myObj = Instantiate (gameObjectSet [randInt]) as GameObject;
 			myObj.transform.position = transform.position;

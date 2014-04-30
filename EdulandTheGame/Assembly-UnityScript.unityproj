@@ -162,7 +162,12 @@
      <None Include="Assets\UnityTestTools\changelog.txt" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\LaserScope.shader" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\Integration_Tests-TestResults.xml" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\ParticleBlend.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4E6A9E52-C7E1-3950-6A70-0BECD9D9A313}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

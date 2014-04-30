@@ -46,12 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\IntegrationTestScripts\ForceDestroy.cs" />
+     <Compile Include="Assets\Scripts\IntegrationTestScripts\ForceDestroy2.cs" />
+     <Compile Include="Assets\Scripts\IntegrationTestScripts\ForceDoubleJump.cs" />
+     <Compile Include="Assets\Scripts\IntegrationTestScripts\ForceJump.cs" />
+     <Compile Include="Assets\Scripts\IntegrationTestScripts\ForceMove.cs" />
+     <Compile Include="Assets\Scripts\IntegrationTestScripts\ForceMove2.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\Scrolling.cs" />
      <Compile Include="Assets\Scripts\ScrollingGround.cs" />
      <Compile Include="Assets\Scripts\SpawnMultipleObject.cs" />
      <Compile Include="Assets\Scripts\cameraFollow.cs" />
      <Compile Include="Assets\Scripts\credits.cs" />
+     <Compile Include="Assets\Scripts\mySpawner.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponentExt.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />
@@ -115,7 +122,12 @@
      <None Include="Assets\UnityTestTools\changelog.txt" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\LaserScope.shader" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\BackgroundAndCharacters\SuperSimpleSelfIllumination.shader" />
+     <None Include="Assets\Integration_Tests-TestResults.xml" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\ParticleBlend.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4E6A9E52-C7E1-3950-6A70-0BECD9D9A313}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
