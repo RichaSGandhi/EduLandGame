@@ -1,4 +1,0 @@
-EduLand
-=======
-
-educational game
